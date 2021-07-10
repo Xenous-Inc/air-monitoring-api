@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
 const airSchema = new Schema({
-    location: {
+    sensorLocation: {
         type: {
             type: String,
             enum: ['Point'],
